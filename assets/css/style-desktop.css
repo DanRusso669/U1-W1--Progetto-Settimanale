@@ -137,18 +137,37 @@ article {
   height: 400px;
   width: 100%;
 }
-article img {
-  height: 100px;
-}
-.articoli {
-  width: 33.333%;
-  height: 100px;
+.box {
+  width: 30%;
+  height: 100%;
   display: inline-block;
-  border: 1px solid #dee1e3;
+  box-sizing: border-box;
   margin-right: -4px;
   vertical-align: middle;
+  text-align: center;
+  margin-left: 3rem;
 }
-
+.aqua img {
+  width: 50%;
+  padding-top: 2rem;
+}
+.coral img {
+  width: 50%;
+  padding-top: 2rem;
+}
+.crimson img {
+  width: 50%;
+  padding-top: 2rem;
+}
+.aqua {
+  border: 1px solid #dee1e3;
+}
+.coral {
+  border: 1px solid #dee1e3;
+}
+.crimson {
+  border: 1px solid #dee1e3;
+}
 /* footer */
 
 footer {
