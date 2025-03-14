@@ -1,0 +1,194 @@
+/* Your styles here */
+/* Generali */
+body {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1.5rem;
+  font-style: normal;
+  line-height: 1.65;
+  font-variation-settings: "wdth" 100;
+  color: #393d41;
+}
+.titoletti,
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+  font-weight: bold;
+  font-style: normal;
+  color: #25a2c3;
+  padding: 10px;
+}
+.testo {
+  padding: 5px;
+}
+/* Header */
+header img {
+  width: 100px;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+header div {
+  width: 100%;
+  background-color: black;
+  height: 50px;
+  vertical-align: middle;
+}
+
+/* 
+header div {
+  width: 100%;
+  height: 160px;
+  max-height: 150px;
+  background-color: black;
+}
+#logo {
+  display: block;
+  margin: auto;
+  padding-block: 2rem;
+  width: 50%;
+} */
+/* Main */
+/* Primo div */
+
+#partiamo {
+  background-image: url(../img/banner.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  text-align: center;
+}
+
+#partiamo h1 {
+  font-size: x-large;
+  padding-top: 6rem;
+}
+#partiamo p {
+  padding-inline: 39rem;
+  padding-bottom: 27px;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+  font-weight: bold;
+  font-style: bold;
+  color: white;
+  background-color: #f04c2f;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
+/* secondo div */
+
+#secondo {
+  width: 100%;
+  height: 600px;
+}
+
+.vicini {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  margin-right: -4px;
+  vertical-align: middle;
+}
+#secondo img {
+  border-radius: 50%;
+  padding-bottom: 1rem;
+  padding-right: 3rem;
+  position: absolute;
+  right: 50%;
+  padding-top: 5rem;
+}
+#info {
+  padding-top: 8rem;
+}
+
+/* terzo div */
+
+#terzo {
+  background-color: #e22d0e;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 250px;
+}
+#terzo h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+  font-weight: bold;
+  font-style: normal;
+  font-size: x-large;
+  padding-top: 3rem;
+}
+
+#corsivo {
+  font-style: italic;
+  padding-block: 1rem;
+}
+/* article */
+article {
+  height: 400px;
+  width: 100%;
+}
+article img {
+  height: 100px;
+}
+.articoli {
+  width: 33.333%;
+  height: 100px;
+  display: inline-block;
+  border: 1px solid #dee1e3;
+  margin-right: -4px;
+  vertical-align: middle;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: #25a2c3;
+}
+#centra {
+  display: inline-block;
+  text-align: left;
+}
+
+footer h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+  font-weight: bold;
+  font-style: normal;
+  font-size: xx-large;
+  padding-bottom: 1rem;
+}
+
+/* footer div:last-child {
+  color: black;
+} */
+.underline {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 2rem;
+}
+
+footer i {
+  color: #25a2c3;
+  background-color: white;
+  border: 2px solid white;
+  font-size: small;
+  border-radius: 3px;
+}
+footer a {
+  color: #c8e7f0;
+}
