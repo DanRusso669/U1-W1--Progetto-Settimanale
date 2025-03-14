@@ -5,7 +5,7 @@ body {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 1.5rem;
   font-style: normal;
   line-height: 1.65;
   font-variation-settings: "wdth" 100;
@@ -27,20 +27,32 @@ h1 {
   padding: 5px;
 }
 /* Header */
-.container {
-  background-color: black;
-  height: 100px;
+header div {
+  display: flex;
   width: 100%;
-  text-align: center;
+  height: 130px;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
 }
-
-.container img {
-  width: 100px;
+header img {
+  max-width: 50%;
+  width: 50%;
+  height: auto;
 }
-
-.container img {
-  width: 120px;
+/* 
+header div {
+  width: 100%;
+  height: 160px;
+  max-height: 150px;
+  background-color: black;
 }
+#logo {
+  display: block;
+  margin: auto;
+  padding-block: 2rem;
+  width: 50%;
+} */
 /* Main */
 /* Primo div */
 
@@ -74,10 +86,87 @@ button {
 }
 /* secondo div */
 
-#middle {
+#secondo {
   padding: 2rem;
 }
-#middle img {
+#secondo img {
   width: 100%;
   border-radius: 50%;
+  padding-bottom: 1rem;
+}
+
+/* terzo div */
+
+#terzo {
+  background-color: #e22d0e;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+#terzo h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+  font-weight: bold;
+  font-style: normal;
+  font-size: x-large;
+}
+
+#corsivo {
+  font-style: italic;
+  padding-block: 1rem;
+}
+/* article */
+article {
+  padding: 2rem;
+}
+
+article img {
+  width: 100%;
+}
+.articoli {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border: 1px solid #dee1e3;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: #25a2c3;
+  padding: 3rem;
+}
+
+footer h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+  font-weight: bold;
+  font-style: normal;
+  font-size: xx-large;
+  padding-bottom: 1rem;
+}
+
+/* footer div:last-child {
+  color: black;
+} */
+.underline {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 2rem;
+}
+
+footer i {
+  color: #25a2c3;
+  background-color: white;
+  border: 2px solid white;
+  font-size: small;
+  border-radius: 3px;
+}
+footer a {
+  color: #c8e7f0;
 }
