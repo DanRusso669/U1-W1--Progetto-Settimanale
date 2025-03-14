@@ -1,0 +1,83 @@
+/* Your styles here */
+/* Generali */
+body {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.65;
+  font-variation-settings: "wdth" 100;
+  color: #393d41;
+}
+.titoletti,
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+  font-weight: bold;
+  font-style: normal;
+  color: #25a2c3;
+  text-align: center;
+  padding: 10px;
+}
+.testo {
+  text-align: center;
+  padding: 5px;
+}
+/* Header */
+.container {
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+.container img {
+  width: 100px;
+}
+
+.container img {
+  width: 120px;
+}
+/* Main */
+/* Primo div */
+
+#partiamo {
+  background-image: url(../img/banner.jpg);
+  background-size: 100% 100%;
+  height: 250px;
+  text-align: center;
+}
+
+#partiamo h1 {
+  font-size: x-large;
+  padding-block: 1rem;
+}
+#partiamo p {
+  padding-inline: 1rem;
+  padding-bottom: 27px;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+  font-weight: bold;
+  font-style: bold;
+  color: white;
+  background-color: #f04c2f;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
+/* secondo div */
+
+#middle {
+  padding: 2rem;
+}
+#middle img {
+  width: 100%;
+  border-radius: 50%;
+}
