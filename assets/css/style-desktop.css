@@ -134,30 +134,28 @@ button {
 }
 /* article */
 article {
-  height: 400px;
-  width: 100%;
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 .box {
-  width: 30%;
-  height: 100%;
   display: inline-block;
-  box-sizing: border-box;
-  margin-right: -4px;
-  vertical-align: middle;
+  width: 30%;
+  border: 1px solid #dee1e3;
+  margin-left: 1rem;
+  vertical-align: top;
+  min-height: 400px;
   text-align: center;
-  margin-left: 3rem;
 }
 .aqua img {
-  width: 50%;
-  padding-top: 2rem;
+  height: 240px;
 }
 .coral img {
-  width: 50%;
-  padding-top: 2rem;
+  height: 240px;
 }
 .crimson img {
-  width: 50%;
-  padding-top: 2rem;
+  height: 240px;
 }
 .aqua {
   border: 1px solid #dee1e3;
